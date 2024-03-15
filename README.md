@@ -36,6 +36,20 @@ export RECEIVER_EMAIL="receiver_email@example.com"
 
 export EMAIL_PASSWORD="your_email_password"
 
+Contributing
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions to extend the sources, improve summarization, or enhance email formatting are greatly appreciated.
+
+Fork the project
+
+Create your Feature Branch (git checkout -b feature/NewFeature)
+
+Commit your Changes (git commit -m 'Add some NewFeature')
+
+Push to the Branch (git push origin feature/NewFeature)
+
+Open a Pull Request
+
 
 Acknowledgments
 
