@@ -12,7 +12,7 @@ NLP Summarization: Use the T5 transformer and SimplyT5 models to condense articl
 
 Database Storage: News summaries, titles, and URLs are stored in a MongoDB database, allowing for data analysis and retrieval.
 
-Daily Email Digests: Users of the script can receive a daily email with the latest news summaries
+Daily Email Digests: Users of the script can receive a daily email with the latest news summaries when running the script
 
 Installation
 
