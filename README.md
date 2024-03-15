@@ -50,6 +50,9 @@ Push to the Branch (git push origin feature/NewFeature)
 
 Open a Pull Request
 
+License
+
+This project is licensed under the GPL-2.0 License - see the LICENSE.md file for details.
 
 Acknowledgments
 
