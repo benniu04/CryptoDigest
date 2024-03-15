@@ -30,4 +30,5 @@ export EMAIL_PASSWORD="your_email_password"
 
 
 Acknowledgments
+
 Special thanks to the creators of the T5 model and BeautifulSoup library for enabling the core functionalities of this project.
