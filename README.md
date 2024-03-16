@@ -36,6 +36,8 @@ export RECEIVER_EMAIL="receiver_email@example.com"
 
 export EMAIL_PASSWORD="your_email_password"
 
+Before running the training.py script, make sure you have a dataset ready to train the model.
+
 Contributing
 
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions to extend the sources, improve summarization, or enhance email formatting are greatly appreciated.
