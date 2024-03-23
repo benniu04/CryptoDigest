@@ -20,23 +20,23 @@ To set up CryptoDigest, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/yourusername/CryptoDigest.git
+- git clone https://github.com/yourusername/CryptoDigest.git
 
-cd CryptoDigest
+- cd CryptoDigest
 
-Install the required library packages
+- install the required library packages
 
 Set up environment variables for MongoDB and email configuration by adding them to your .bashrc or .bash_profile:
 
-export MONGO_URI="your_mongodb_uri"
+- export MONGO_URI="your_mongodb_uri"
 
-export SENDER_EMAIL="your_email@example.com"
+- export SENDER_EMAIL="your_email@example.com"
 
-export RECEIVER_EMAIL="receiver_email@example.com"
+- export RECEIVER_EMAIL="receiver_email@example.com"
 
-export EMAIL_PASSWORD="your_email_password"
+- export EMAIL_PASSWORD="your_email_password"
 
-Before running the training.py script, make sure you have a dataset ready to train the model.
+- before running the training.py script, make sure you have a dataset ready to train the model.
 
 Contributing
 
@@ -44,13 +44,17 @@ Contributions make the open-source community an amazing place to learn, inspire,
 
 Fork the project
 
-Create your Feature Branch (git checkout -b feature/NewFeature)
+- Create your Feature Branch (git checkout -b feature/NewFeature)
 
-Commit your Changes (git commit -m 'Add some NewFeature')
+- Commit your Changes (git commit -m 'Add some NewFeature')
 
-Push to the Branch (git push origin feature/NewFeature)
+- Push to the Branch (git push origin feature/NewFeature)
 
-Open a Pull Request
+- Open a Pull Request
+
+Important Notes
+
+- If I have more time to work on this project, I would incorporate more data to further fine tune the model and generate more precise summaries. The summaries generated are mostly correct but grammar and capitalization can be improved.
 
 License
 
