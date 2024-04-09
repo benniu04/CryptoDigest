@@ -1,4 +1,4 @@
-# CryptoDigest
+# CryptoDigest 🗞
 
 ## Description
 
