@@ -24,7 +24,7 @@ tokenizers = T5Tokenizer.from_pretrained(model_name)
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 # Load pre-trained model weights
-model_path = 'outputs/simplet5-epoch-4-train-loss-0.3779-val-loss-0.3049/my_model_epoch5_loss0.3779.pth'
+model_path = 'outputs/simplet5-epoch-4-train-loss-0.3232-val-loss-0.4057/my_model_epoch5_loss0.3232.pth'
 model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
 
 
@@ -37,7 +37,7 @@ def summarize_text(text, min_length, max_length):
 
     # Generate the summary
     summary_generate = model.generate(tokenized_text, max_length=max_length, min_length=min_length, length_penalty=2.0,
-                                      num_beams=18, early_stopping=True, no_repeat_ngram_size=2)  # higher num_beam
+                                      num_beams=20, early_stopping=True, no_repeat_ngram_size=2)  # higher num_beam
     # generates more concise summaries
 
     # Decode summary
@@ -149,7 +149,7 @@ with open('revised-article-news.csv', 'a', newline='', encoding='utf-8') as csv_
                     # Summarize the article content
                     if actual_content:
                         new_min_length = 75
-                        new_max_length = max(int(len(actual_content) * 0.5), new_min_length)
+                        new_max_length = max(int(len(actual_content) * 0.6), new_min_length)
                         actual_summary = summarize_text(actual_content,
                                                         min_length=new_min_length, max_length=new_max_length)
                         print(actual_summary)
@@ -159,12 +159,11 @@ with open('revised-article-news.csv', 'a', newline='', encoding='utf-8') as csv_
                             collection.insert_one(
                                 {"header": header_text, "url": link_url, "content": actual_summary})
                             csv_writer.writerow([header_text, link_url, actual_summary])
+                            body = "Daily Crypto News Summary:\n\n"
+                            for art in articles_info:
+                                body += f"Title: {art['title']}\nURL: {art['url']}\nSummary:\n{art['summary']}\n\n"
                     else:
                         print("Content not found :(")
-
-            body = "Daily Crypto News Summary:\n\n"
-            for article in articles_info:
-                body += f"Title: {article['title']}\nURL: {article['url']}\nSummary:\n{article['summary']}\n\n"
 
             message = MIMEMultipart()
             message["From"] = sender_email
