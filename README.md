@@ -55,7 +55,9 @@ Contributions make the open-source community an amazing place to learn, inspire,
 ## Important Notes ⚠️
 
 ⚡ If I had more time to work on this project, I would incorporate more data to further fine-tune the model and generate more precise summaries. The summaries generated are mostly correct but grammar and capitalization can be improved.
+
 ⚡ The training_data-_actual.csv file is my own collected data, the user can have their CSV file with their data to train their model.
+
 ⚡ The test.py file is for testing and messing with the training parameters of the model to see how different values can influence the output of summaries.
 
 ## License 🪪
