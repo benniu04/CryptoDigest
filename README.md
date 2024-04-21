@@ -4,6 +4,11 @@
 
 CryptoDigest is an automated system designed to keep the user informed about the latest news in the crypto world. This Python-based tool scrapes cryptocurrency news articles, more specifically Bitcoin-related ones, summarizes them for quick consumption, stores them in a MongoDB database for future access, and sends out daily digest emails with summaries to me.
 
+# Example Email
+
+<img width="1132" alt="news-examples" src="https://github.com/benniu04/CryptoDigest/assets/138111756/6626078a-cedf-483b-a37c-ff7c70368a11">
+
+
 ## Features 💥
 
 Automated News Scraping: Daily scraping of the latest cryptocurrency news from Yahoo Finance and related sources
