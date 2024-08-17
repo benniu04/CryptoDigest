@@ -41,22 +41,6 @@ To set up CryptoDigest, follow these steps:
 
 ⚡ export EMAIL_PASSWORD="your_email_password"
 
-⚡ before running the training.py script, ensure you have a dataset ready to train the model.
-
-## Contributing ⭐️
-
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions to extend the sources, improve summarization, or enhance email formatting are greatly appreciated.
-
-## Fork the project 🍴
-
-⚡ Create your Feature Branch (git checkout -b feature/NewFeature)
-
-⚡ Commit your changes (git commit -m 'Add some NewFeature')
-
-⚡ Push to the Branch (git push origin feature/NewFeature)
-
-⚡ Open a Pull Request
-
 ## Important Notes ⚠️
 
 ⚡ If I had more time to work on this project, I would incorporate more data to further fine-tune the model and generate more precise summaries. The summaries generated are mostly correct but grammar and capitalization can be improved.
@@ -68,7 +52,3 @@ Contributions make the open-source community an amazing place to learn, inspire,
 ## License 🪪
 
 This project is licensed under the GPL-2.0 License - see the LICENSE.md file for details.
-
-## Acknowledgments 🍁
-
-Special thanks to the creators of the T5 model and the BeautifulSoup library for enabling the core functionalities of this project.
