@@ -11,9 +11,9 @@ CryptoDigest is an automated system designed to keep the user informed about the
 
 ## Features 💥
 
-Automated News Scraping: Daily scraping of the latest cryptocurrency news from Yahoo Finance and related sources
+Automated News Scraping: Daily scraping of the latest cryptocurrency news from Yahoo Finance.
 
-NLP Summarization: Use the T5 transformer and SimplyT5 models to condense articles into digestible summaries.
+NLP Summarization: Use the T5 transformer and SimplyT5 models to condense articles into summaries.
 
 Database Storage: News summaries, titles, and URLs are stored in a MongoDB database, allowing for data analysis and retrieval.
 
